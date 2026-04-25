@@ -2,3 +2,6 @@
 catboost_info/
 eye-tracking/
 *.pdf
+bro_js_typin_stuff.ipynb
+.codex
+__pycache__
