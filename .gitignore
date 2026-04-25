@@ -1,2 +1,4 @@
 .venv/
 catboost_info/
+eye-tracking/
+*.pdf
