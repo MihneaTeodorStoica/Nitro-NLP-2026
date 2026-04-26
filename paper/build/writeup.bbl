@@ -1,0 +1,112 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{ana0101}(2025)]{ana0101eyetracking}
+{ana0101}.
+\newblock {eye-tracking}: Romanian eye-tracking and trt modeling repository.
+\newblock \url{https://github.com/ana0101/eye-tracking}, 2025.
+\newblock Accessed 2026-04-26.
+
+\bibitem[Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova]{devlin2019bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock {BERT}: Pre-training of deep bidirectional transformers for language
+  understanding.
+\newblock In \emph{Proceedings of the 2019 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies}, pages 4171--4186. Association for Computational Linguistics,
+  2019.
+\newblock \doi{10.18653/v1/N19-1423}.
+\newblock URL \url{https://aclanthology.org/N19-1423/}.
+
+\bibitem[Dumitrescu et~al.(2020)Dumitrescu, Avram, and
+  Pyysalo]{dumitrescu2020birth}
+Stefan Dumitrescu, Andrei-Marius Avram, and Sampo Pyysalo.
+\newblock The birth of {R}omanian {BERT}.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2020}, pages 4324--4328. Association for Computational Linguistics,
+  2020.
+\newblock \doi{10.18653/v1/2020.findings-emnlp.387}.
+\newblock URL \url{https://aclanthology.org/2020.findings-emnlp.387/}.
+
+\bibitem[Hodivoianu et~al.(2025)Hodivoianu, Kuvshynova, Popovici, Luca, and
+  Nisioi]{hodivoianu2025predicting}
+Anamaria Hodivoianu, Oleksandra Kuvshynova, Filip Popovici, Adrian Luca, and
+  Sergiu Nisioi.
+\newblock Predicting total reading time using {R}omanian eye-tracking data.
+\newblock In \emph{Proceedings of the First International Workshop on Gaze Data
+  and Natural Language Processing}, pages 71--75, Varna, Bulgaria, 2025. INCOMA
+  Ltd.
+\newblock URL \url{https://aclanthology.org/2025.gaze4nlp-1.9/}.
+\newblock PDF: \url{https://aclanthology.org/2025.gaze4nlp-1.9.pdf}.
+
+\bibitem[Jolliffe(2002)]{jolliffe2002pca}
+Ian~T. Jolliffe.
+\newblock \emph{Principal Component Analysis}.
+\newblock Springer, 2 edition, 2002.
+\newblock \doi{10.1007/b98835}.
+
+\bibitem[Ke et~al.(2017)Ke, Meng, Finley, Wang, Chen, Ma, Ye, and
+  Liu]{ke2017lightgbm}
+Guolin Ke, Qi~Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei
+  Ye, and Tie-Yan Liu.
+\newblock {LightGBM}: A highly efficient gradient boosting decision tree.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~30, 2017.
+\newblock URL
+  \url{https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree}.
+
+\bibitem[{MultiplEYE COST Action CA21131}(2026)]{multipleye}
+{MultiplEYE COST Action CA21131}.
+\newblock Multipleye: Enabling multilingual eye-tracking data collection for
+  human and machine language processing research.
+\newblock \url{https://multipleye.eu/}, 2026.
+\newblock Accessed 2026-04-26.
+
+\bibitem[{Nitro Association}(2026)]{nitrohackathon2026}
+{Nitro Association}.
+\newblock {Nitro NLP Hackathon}.
+\newblock \url{https://nitro-ai.org/hackathon/}, 2026.
+\newblock 23-hour NLP competition, 25--26 April 2026. Accessed 2026-04-26.
+
+\bibitem[{OpenAI}(2026)]{chatgpt2026}
+{OpenAI}.
+\newblock {ChatGPT}.
+\newblock \url{https://chat.openai.com/}, 2026.
+\newblock Used for drafting, code organization, and writeup assistance;
+  empirical claims are derived from the local data and cited sources.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, and Duchesnay]{pedregosa2011scikit}
+Fabian Pedregosa, Gael Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand
+  Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss,
+  Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau,
+  Matthieu Brucher, Matthieu Perrot, and Edouard Duchesnay.
+\newblock Scikit-learn: Machine learning in {P}ython.
+\newblock \emph{Journal of Machine Learning Research}, 12:\penalty0 2825--2830,
+  2011.
+\newblock URL \url{https://jmlr.org/papers/v12/pedregosa11a.html}.
+
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
+  Cournapeau, Burovski, Peterson, Weckesser, Bright, van~der Walt, Brett,
+  Wilson, Millman, Mayorov, Nelson, Jones, Kern, Larson, Carey, Polat, Feng,
+  Moore, VanderPlas, Laxalde, Perktold, Cimrman, Henriksen, Quintero, Harris,
+  Archibald, Ribeiro, Pedregosa, and van Mulbregt]{virtanen2020scipy}
+Pauli Virtanen, Ralf Gommers, Travis~E. Oliphant, Matt Haberland, Tyler Reddy,
+  David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren Weckesser, Jonathan
+  Bright, St{\'e}fan~J. van~der Walt, Matthew Brett, Joshua Wilson, K.~Jarrod
+  Millman, Nikolay Mayorov, Andrew R.~J. Nelson, Eric Jones, Robert Kern, Eric
+  Larson, C.~J. Carey, Ilhan Polat, Yu~Feng, Eric~W. Moore, Jake VanderPlas,
+  Denis Laxalde, Josef Perktold, Robert Cimrman, Ian Henriksen, E.~A. Quintero,
+  Charles~R. Harris, Anne~M. Archibald, Antonio~H. Ribeiro, Fabian Pedregosa,
+  and Paul van Mulbregt.
+\newblock {SciPy} 1.0: Fundamental algorithms for scientific computing in
+  {P}ython.
+\newblock \emph{Nature Methods}, 17:\penalty0 261--272, 2020.
+\newblock \doi{10.1038/s41592-019-0686-2}.
+
+\end{thebibliography}
