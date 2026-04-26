@@ -1,7 +1,8 @@
+.cache/
+__pycache__/
+.ipynb_checkpoints/
 .venv/
-catboost_info/
-eye-tracking/
-*.pdf
-bro_js_typin_stuff.ipynb
-.codex
-__pycache__
+catboost_*/
+*.pt
+output.csv
+submission*.csv
