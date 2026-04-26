@@ -6,3 +6,5 @@ catboost_*/
 *.pt
 output.csv
 submission*.csv
+paper/*
+!paper/writeup.pdf

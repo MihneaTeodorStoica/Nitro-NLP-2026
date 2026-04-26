@@ -14,7 +14,7 @@ cache.mkdir(exist_ok=True)
 seed = 42
 np.random.seed(seed)
 
-hard_thr = 100
+hard_thr = 90
 emb_model_name = "dumitrescustefan/bert-base-romanian-cased-v1"
 emb_batch_cuda = 8
 emb_batch_cpu = 4
@@ -26,12 +26,12 @@ repeat_seeds = [42, 123]
 n_splits = 5
 
 base_sqrt_params = dict(
-    n_estimators=700,
+    n_estimators=1000,
     learning_rate=0.022,
     num_leaves=15,
     min_child_samples=20,
-    subsample=0.9,
-    colsample_bytree=0.65,
+    subsample=1,
+    colsample_bytree=0.7,
     reg_lambda=35,
     random_state=seed + 1,
     verbose=-1,
@@ -851,6 +851,5 @@ sub.to_csv("output.csv", index=False)
 
 print(sub.head())
 print(sub["answer"].describe())
-
 
 
